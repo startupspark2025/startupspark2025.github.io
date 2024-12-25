@@ -972,6 +972,11 @@ body {
     .event {
         font-size: 15px;
     }
+
+    .nav-link .active {
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(100px);
+    }
 }
 
 @media (max-width: 360px) {
