@@ -467,7 +467,7 @@ body {
     /* Rounded corners for a modern look */
     box-shadow: 0px 4px 8px rgba(112, 87, 87, 0.1);
     /* Light shadow for depth */
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .event-schedule h2 {
@@ -540,10 +540,13 @@ body {
 
 /* Sponsor Section */
 .sponsor {
-    padding: 80px 20px; /* Adds spacing around the section */
+    padding: 20px 20px; /* Adds spacing around the section */
     text-align: center;
+    margin: 0px auto;
     min-height: 100vh;
 }
+
+
 
 .sponsor .container {
     max-width: 1200px; /* Limits the section's width */
@@ -909,7 +912,7 @@ body {
     .main-content {
         margin-top: -30px;
     }
-    
+
     .location {
         font-size: 20px;
     }
@@ -964,16 +967,12 @@ body {
     .event {
         font-size: 15px;
     }
-
-    .nav-link .active {
-        background: rgba(255, 255, 255);
-    }
 }
 
 @media (max-width: 360px) {
     .expo-title {
         font-size: 40px;
     }
-    
+
 }
 
