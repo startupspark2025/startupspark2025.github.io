@@ -679,8 +679,7 @@ body {
         display: flex;
         text-align: center;
         transform: translateY(0); /* Slide in */
-        background: rgba(255, 255, 255, 0.2);
-        backdrop-filter: blur(100px);
+        background: rgb(43, 42, 42);
     }
 
     .nav-links li {
