@@ -3,18 +3,11 @@ body {
     font-family: "Ubuntu", serif;
     box-sizing: border-box;
     /* Ensure consistent box-sizing */
-    background: linear-gradient(to bottom, #ffffff, #f0f0f0);
+    background: linear-gradient(to bottom, #413e3e, #161414);
     /* Subtle gradient background */
     background-attachment: fixed;
     /* Keep background fixed */
-    background:
-        radial-gradient(35.36% 35.36% at 100% 25%, #0000 66%, rgba(0, 0, 0, 0.68) 68% 70%, #0000 72%) 15px 15px/calc(2*15px) calc(2*15px),
-        radial-gradient(35.36% 35.36% at 0 75%, #0000 66%, rgba(0, 0, 0, 0.68) 68% 70%, #0000 72%) 15px 15px/calc(2*15px) calc(2*15px),
-        radial-gradient(35.36% 35.36% at 100% 25%, #0000 66%, rgba(0, 0, 0, 0.68) 68% 70%, #0000 72%) 0 0/calc(2*15px) calc(2*15px),
-        radial-gradient(35.36% 35.36% at 0 75%, #0000 66%, rgba(0, 0, 0, 0.68) 68% 70%, #0000 72%) 0 0/calc(2*15px) calc(2*15px),
-        repeating-conic-gradient(#343535 0 25%, #0000 0 50%) 0 0/calc(2*15px) calc(2*15px),
-        radial-gradient(#0000 66%, rgba(0, 0, 0, 0.68) 68% 70%, #0000 72%) 0 calc(15px/2)/15px 15px #343535;
-
+   
 }
 
 * {
