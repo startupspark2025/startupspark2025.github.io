@@ -1,0 +1,607 @@
+/* General Styling */
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #707070;
+}
+
+
+
+.team-container, 
+.footer-container,
+.sponsor-container,
+.hero-container,
+.time-container,
+.speaker-container,
+.about-section
+{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #001F54;
+}
+
+p {
+  line-height: 1.6;
+}
+
+
+/* Hero Section */
+.hero-section {
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(to bottom right, #007BFF, #FFFFFF);
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center;
+  color: white;
+}
+
+.hero-section h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem; /* Increased size for better readability */
+  margin-bottom: 15px;
+}
+
+.hero-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero-section .cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.primary-btn, .secondary-btn {
+  font-family: 'Montserrat', sans-serif;
+  padding: 15px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background: #007BFF;
+  color: white;
+  font-size: 1rem;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: #007BFF;
+  border: 2px solid #007BFF;
+  font-size: 1rem;
+}
+
+
+/* Key Highlights Section */
+.key-highlights {
+  background: #F7F8FA;
+  padding: 50px 20px;
+}
+
+.highlights-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.highlight {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 30%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Countdown Timer Section */
+.countdown-timer {
+  background: #F7F8FA;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.countdown-timer h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #001F54;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#countdown {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: #FF6B35; /* Orange for the numbers */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#countdown span {
+  font-weight: bold;
+  color: #001F54; /* Navy Blue for labels */
+}
+
+#countdown div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Speaker Section */
+.speakers {
+  background: #FFFFFF;
+  padding: 50px 20px;
+}
+
+.speakers-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.speaker img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.view-speakers-btn {
+  background: #28A745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Sponsors Section */
+.sponsors {
+  background: #FFFFFF;
+  padding: 50px 20px;
+}
+
+.sponsors h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #001F54;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sponsors-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Ensure spacing between items is consistent */
+}
+
+
+.sponsor-card img {
+  max-width: 100px;
+  max-height: 100px; /* Ensure image is not too large */
+  object-fit: contain; /* Keeps the aspect ratio of the image intact */
+}
+
+/* Meet the Team Section */
+.meet-the-team {
+  background: #FFFFFF;
+  padding: 50px 20px;
+}
+
+.meet-the-team h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #001F54;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.team-members {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow wrapping of items if screen size is too small */
+}
+
+.team-member {
+  background: #F7F8FA;
+  border-radius: 8px;
+  padding: 20px;
+  width: 30%; /* 3 items per row */
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-member h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #001F54;
+  margin-bottom: 10px;
+}
+
+.bio {
+  font-family: 'Lato', sans-serif;
+  color: #707070;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.status {
+  font-family: 'Lato', sans-serif;
+  color: #001F54;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+
+
+/* Footer */
+.footer {
+  background: #001F54;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Adjusting layout for highlights */
+.highlight-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.highlight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-left, .text-right {
+  width: 50%;
+  padding: 10px;
+}
+
+.image-left img, .image-right img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.image-left, .image-right {
+  width: 50%;
+}
+
+/* Sponsors Section */
+.sponsors-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Meet the Team Section */
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+/* Footer */
+.footer-links {
+  margin: 20px 0;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.social-links {
+  margin: 10px 0;
+}
+
+
+
+.social-links a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+
+/* General Styling for Section Layout */
+section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-left, .text-right {
+  width: 50%;
+  padding: 20px;
+}
+
+.image-left, .image-right {
+  width: 50%;
+}
+
+.image-left img, .image-right img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* Countdown Timer */
+#countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#countdown div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: #FF6B35; /* Orange for numbers */
+}
+
+#countdown span {
+  font-size: 3rem;
+  color: #001F54; /* Navy Blue for labels */
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #001F54;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.navbar .nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .nav-links li {
+  display: inline;
+}
+
+.navbar .nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+  color: #FF6B35;
+}
+
+/* Responsive Navbar */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  background-color: white;
+  height: 3px;
+  width: 25px;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+
+/* General Section Styling */
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  gap: 20px;
+  background: #F7F8FA; /* Light background for sections */
+}
+
+.content-section:nth-child(even) {
+  background: #FFFFFF; /* Alternate section background */
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+  width: 90%;
+  gap: 20px;
+}
+
+.container .content {
+  flex: 1;
+  text-align: left;
+}
+
+.container .image {
+  flex: 1;
+  text-align: center;
+}
+
+.container .image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* About the Event Section */
+.about-event {
+  padding: 60px 20px;
+  background-color: #f7f8fa; /* Light gray background for consistency */
+  text-align: center; /* Center-align text */
+}
+
+.about-event h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  color: #001F54; /* Dark blue for the header */
+  margin-bottom: 20px;
+}
+
+.about-event p {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
+  color: #707070; /* Light gray for the paragraph text */
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+/* Speaker Section */
+.speakers {
+  padding: 150px 20px;
+  background: #f4f6f9; /* Light gray background for a more professional vibe */
+}
+
+.speakers h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  color: #001F54; /* Dark Blue */
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.speakers-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns on desktop */
+  gap: 30px;
+  justify-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: column; /* Stack the image on top of text */
+  align-items: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px; /* More rounded corners for a modern feel */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+  width: 100%;
+  max-width: 300px; /* Ensure a consistent size */
+}
+
+.speaker:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+  box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
+
+.speaker:nth-child(even) {
+  background-color: #f9f9f9; /* Slightly darker background for alternating rows */
+}
+
+.speaker-info {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.speaker-name {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  color: #001F54; /* Dark blue for the name */
+  font-weight: 700; /* Make the name bold */
+  margin: 0;
+}
+
+.speaker-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1rem;
+  color: #007BFF; /* Accent color for the title */
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.speaker-bio {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: #707070; /* Light gray for the bio */
+  line-height: 1.6;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+
+.speaker-image img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #007BFF; /* Blue border for a professional touch */
+  transition: border 0.3s ease; /* Smooth border transition */
+}
+
+.speaker-image img:hover {
+  border-color: #0056b3; /* Darker blue on hover */
+}
+
