@@ -104,7 +104,7 @@ document.querySelectorAll('.scrolling-text').forEach(text => {
     requestAnimationFrame(() => {
 
         //Append content until scrollWidth is more than 2 times the container width
-      while (text.scrollWidth < container.offsetWidth * 10) {
+      while (text.scrollWidth < container.offsetWidth * 100) {
           text.innerHTML += content;
       }
       fillingInProgress = false;

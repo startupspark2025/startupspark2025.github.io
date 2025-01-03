@@ -142,7 +142,7 @@ nav ul li a {
 .scrolling-text {
     display: inline-block;
     white-space: nowrap;
-    animation: scrollText 500s linear infinite;
+    animation: scrollText 5000s linear infinite;
 }
 
 @keyframes scrollText {
