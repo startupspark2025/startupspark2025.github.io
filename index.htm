@@ -9,23 +9,21 @@
 </head>
 
 <body>
-  <header>
-    <div class="logo">
-      <img src="laonga_logo.png" alt="LOGO">
-    </div>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Speakers</a></li>
-        <li><a href="#">Schedule</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+  <nav class="navbar">
+        <div class="logo">
+            LOGO
+        </div>
+        <div class="menu-toggle">&#9776;</div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Speakers</a>
+            <a href="#">Sponsors</a>
+            <a href="#">Contact</a>
+            <a href="#" class="buy-ticket"><span> - </span>BUY TICKET</a>
+        </div>
     </nav>
-    <button class="buy-ticket-btn">
-      <span>—</span> BUY TICKET
-    </button>
-  </header>
+
 
   <section class="content" id="home">
     <div class="header-date">22-24th March, 2025 • Millenium Hall, ADD</div>
@@ -47,7 +45,7 @@
     </div>
     
   </section>
-
+  <div class="divider">✦</div>
   <!-- Tech Section -->
   <section class="tech-section">
     <div class="left-content">
@@ -56,7 +54,7 @@
           The event brings together industry leaders, investors, and pioneers to share knowledge, inspire creativity, and provide resources to take your startup ideas to the next level.
           Whether you're looking to build connections, gain insights, or find your next business partner, Startup Spark 2024 is your gateway to success. 
           Join us for an unforgettable experience!</p>
-        <button class="view-more-btn">VIEW MORE</button>
+        <button class="view-more-btn"><span>—</span> VIEW MORE</button>
     </div>
     <div class="right-content">
         <div class="stat-item-one">
@@ -88,11 +86,11 @@
         </div>
     </div>
 </section>
-
+<div class="divider">✦</div>
 <!-- speaker section  -->
 <section class="speakers-section">
   <div class="speakers-header">
-    <h2 class="speakers-title">Meet Our Team</h2>
+    <h2 class="speakers-title">Speakers</h2>
     <p class="speakers-description">
       Get ready to be inspired by industry leaders and visionaries. Explore a lineup of speakers who are at the
       forefront of innovation, sharing insights
@@ -113,7 +111,9 @@
           <img src="img/linkedin.png" href="#">
           <img src="img/twitter.png" href="#">
         </div>
-        <img src="img/en.avif" alt="David Johnson" class="speaker-image">
+        <div class="back-effect">
+          <img src="img/en.avif" alt="David Johnson" class="speaker-image">
+      </div>
       </div>
     </div>
 
@@ -153,6 +153,7 @@
   </div>
 </section>
 
+<div class="divider">✦</div>
 <!--  event section -->
   <section class="schedule-container">
     <div class="event-header">
@@ -222,9 +223,7 @@
     </section>
   </section>
 
-
-
-
+  <div class="divider">✦</div>
 <!-- Sponsor Section -->
 <section class="sponsors-section">
   <div class="sponsors-wrapper">
@@ -316,15 +315,16 @@
       </div>
     </div>
   </section> -->
+  <div class="divider">✦</div>
   <section class="time-container">
     <h1 class="headlines">HURRY UP !</h1>
     <h2 class="subheadline">RESERVE YOUR SPOT NOW</h2>
     <div class="timer" id="timer">
       <span id="days">00</span>:<span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
     </div>
-    <button class="buy-ticket" id="buy-button">BUY TICKET</button>
+    <button class="buy-ticket" id="buy-button"><span>—</span> BUY TICKET</button>
   </section>
-
+  <div class="divider">✦</div>
   <section class="speakers-section">
     <div class="speakers-header">
       <h2 class="speakers-title">Meet Our Team</h2>
@@ -385,14 +385,18 @@
       </div>
     </div>
   </section>
-
+  <div class="divider">✦</div>
   <footer>
     <div class="announcement">
-      <span class="icon">✦</span> <span class="text">COMING SOON</span>
-      <span class="icon">✦</span> <span class="text">COMING SOON</span>
-      <span class="icon">✦</span> <span class="text">COMING SOON</span>
-      <span class="icon">✦</span> <span class="text">COMING SOON</span>
+      <div class="scroll-text">
+        <span class="icon"> ✦ </span> <span class="text"> COMING SOON </span>
+        <span class="icon"> ✦ </span> <span class="text"> COMING SOON </span>
+        <span class="icon"> ✦ </span> <span class="text"> COMING SOON </span>
+        <span class="icon"> ✦ </span> <span class="text"> COMING SOON </span>
+      </div>
     </div>
+    
+  
     <div class="footer-container">
       <div class="navigation-section">
         <div class="nav-links left-nav">
@@ -413,7 +417,25 @@
           <p>Contact Us</p>
         </div>
       </div>
-
+    </div>
+      <div class="footer-container-mobile">
+        <div class="navigation-section">
+          <div class="nav-links left-nav">
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Speakers</p>
+            <p>Schedule</p>
+            <p>Sponsors</p>
+            <p>Contact Us</p>
+          </div>
+  
+          <div class="icon-container">
+            <img src="img/instagram.png">
+            <img src="img/linkedin.png">
+            <img src="img/twitter.png">
+          </div>
+        </div>
+      </div>
       <div class="line"></div>
 
       <div class="copyright-container">
