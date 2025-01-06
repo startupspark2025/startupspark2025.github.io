@@ -62,7 +62,7 @@ header {
 
 .content-wrapper {
     position: relative;
-    background-image: url('https://github.com/startupspark2025/startupspark2025.github.io/blob/main/img/Background.jpg');
+    background-image: url('../../img/Background.jpg');
     background-size: cover; /* Ensures the image covers the entire container */
     background-position: center top; /* Center image and align top */
     background-repeat: no-repeat; /* Prevent tiling of the image */
